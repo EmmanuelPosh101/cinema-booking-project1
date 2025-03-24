@@ -2,7 +2,6 @@ package fr.efrei;
 
 import fr.efrei.cinemabookingproject1.domain.Promotion;
 import fr.efrei.cinemabookingproject1.factory.PromotionFactory;
-import org.w3c.dom.ls.LSOutput;
 
 import java.time.LocalDate;
 

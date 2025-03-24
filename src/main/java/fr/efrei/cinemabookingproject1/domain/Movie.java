@@ -17,7 +17,7 @@ public class Movie {
 
     public Movie() {
     }
-    //7.PRIVATE & BUILDER OBJECT
+
     private Movie(Builder builder) {
         this.title = builder.title;
         this.genre = builder.genre;
@@ -63,7 +63,7 @@ public class Movie {
                 '}';
     }
 
-    //2.CREATE BUILDER CLASS
+
     public static class Builder {
         //3.VARIABLES
         private String title;
@@ -73,18 +73,7 @@ public class Movie {
         private String description;
         private String releaseDate;
 
-        //8.CONSTRUCTOR
-        public Builder() {
-            this.title = title;
-            this.genre = genre;
-            this.duration = duration;
-            this.language = language;
-            this.description = description;
-            this.releaseDate = releaseDate;
-        }
 
-        //4.SET-METHODS
-        //5.CHANGE VOID TO BUILDER & RETURN
         public Builder setTitle(String title) {
             this.title = title;
             return this;
@@ -114,7 +103,7 @@ public class Movie {
             this.releaseDate = releaseDate;
             return this;
         }
-        //9.RETURN
+
         public Movie build() {return new Movie(this);}
 
     }
