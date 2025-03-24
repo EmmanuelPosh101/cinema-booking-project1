@@ -65,7 +65,7 @@ public class Movie {
 
 
     public static class Builder {
-        //3.VARIABLES
+
         private String title;
         private String genre;
         private String duration;

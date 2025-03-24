@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="I have completed doing my Domain and Factory">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/efrei/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/Main.java" afterDir="false" />
+    <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="i have completed with the two packages">
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Seat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,9 @@
     &quot;accountId&quot;: &quot;19e195a9-f2e8-419e-8b3f-cc7d8f2a6403&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -111,7 +111,7 @@
       <workItem from="1742833002059" duration="132000" />
       <workItem from="1742833188057" duration="1064000" />
       <workItem from="1742853981079" duration="3431000" />
-      <workItem from="1742857895451" duration="1268000" />
+      <workItem from="1742857895451" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="Done with my entities and factory">
       <option name="closed" value="true" />
@@ -145,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742858807382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="i have completed with the two packages">
+      <option name="closed" value="true" />
+      <created>1742859408977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742859408977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="Done with my entities and factory" />
     <MESSAGE value="innit commit" />
     <MESSAGE value="I have completed doing my Domain and Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="I have completed doing my Domain and Factory" />
+    <MESSAGE value="i have completed with the two packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="i have completed with the two packages" />
   </component>
 </project>
