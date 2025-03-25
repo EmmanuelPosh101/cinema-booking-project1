@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="" />
+    <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="innit commit&#10;Payment and Showtime">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Showtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/PaymentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/ShowtimeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/efrei/cinemabookingproject1/factory/PaymentFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/efrei/cinemabookingproject1/factory/ShowtimeFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/EmmanuelPosh101/cinema-booking-project1.git&quot;,
-    &quot;accountId&quot;: &quot;eb82c4b2-ac6e-49b4-81c0-6cedeee04214&quot;
+    &quot;accountId&quot;: &quot;64cae8e0-ecdf-4652-9442-930491a46222&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -56,6 +65,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Eazy E/IdeaProjects/CinemaBookingProject1/src/test/fr/efrei/cinemabookingproject1/factory&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lindi/IdeaProjects/cinema-booking-project1&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,11 +89,31 @@
       <recent name="fr.efrei.cinemabookingproject1.domain" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.efrei.Main" />
+      <module name="CinemaBookingProject1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.efrei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -91,7 +121,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1742750687985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -100,6 +129,12 @@
       <workItem from="1742826348352" duration="5928000" />
       <workItem from="1742833002059" duration="132000" />
       <workItem from="1742833188057" duration="1064000" />
+      <workItem from="1742844453839" duration="295000" />
+      <workItem from="1742844898746" duration="1460000" />
+      <workItem from="1742915751586" duration="431000" />
+      <workItem from="1742916263187" duration="12000" />
+      <workItem from="1742916325251" duration="19037000" />
+      <workItem from="1742944951734" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="Done with my entities and factory">
       <option name="closed" value="true" />
@@ -126,6 +161,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done with my entities and factory" />
     <MESSAGE value="innit commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="innit commit" />
+    <MESSAGE value="innit commit&#10;Payment and Showtime" />
+    <option name="LAST_COMMIT_MESSAGE" value="innit commit&#10;Payment and Showtime" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/PaymentFactory.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
