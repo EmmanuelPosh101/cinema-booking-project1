@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="i have completed with the two packages">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/BookingFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,9 @@
       <workItem from="1742833002059" duration="132000" />
       <workItem from="1742833188057" duration="1064000" />
       <workItem from="1742853981079" duration="3431000" />
-      <workItem from="1742857895451" duration="1571000" />
+      <workItem from="1742857895451" duration="2293000" />
+      <workItem from="1742907925072" duration="68000" />
+      <workItem from="1742939437691" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="Done with my entities and factory">
       <option name="closed" value="true" />
@@ -153,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742859408977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="i have completed with the two packages">
+      <option name="closed" value="true" />
+      <created>1742859520033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742859520033</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
