@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="innit commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/efrei/cinemabookingproject1/factory/CustomerFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,8 @@
       <workItem from="1742845101380" duration="124000" />
       <workItem from="1742929572104" duration="1178000" />
       <workItem from="1743100812180" duration="1379000" />
-      <workItem from="1743147031325" duration="2035000" />
+      <workItem from="1743147031325" duration="2400000" />
+      <workItem from="1743149791434" duration="37000" />
     </task>
     <task id="LOCAL-00001" summary="Done with my entities and factory">
       <option name="closed" value="true" />
@@ -164,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742834897093</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="innit commit">
+      <option name="closed" value="true" />
+      <created>1743149672081</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743149672081</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
