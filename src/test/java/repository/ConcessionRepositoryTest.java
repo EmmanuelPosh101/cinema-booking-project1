@@ -5,6 +5,7 @@ import fr.efrei.cinemabookingproject1.repository.impl.ConcessionImplementation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class ConcessionRepositoryTest {
     @Test
     public void testAddAndRetrieveConcession() {

@@ -1,6 +1,5 @@
 package repository;
 
-
 import fr.efrei.cinemabookingproject1.domain.Staff;
 import fr.efrei.cinemabookingproject1.repository.impl.StaffImplementation;
 import org.junit.jupiter.api.Test;
@@ -10,7 +9,6 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StaffRepositoryTest {
-
     @Test
     public void testAddAndRetrieveStaff() {
         // Arrange
