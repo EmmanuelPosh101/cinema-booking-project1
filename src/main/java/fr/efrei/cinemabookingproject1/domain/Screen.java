@@ -1,5 +1,8 @@
 package fr.efrei.cinemabookingproject1.domain;
+/*Vuyolwethu Piyo
+222875437
 
+ */
 public class Screen {
     private String type;
     private int capacity;
