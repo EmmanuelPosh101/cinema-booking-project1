@@ -4,17 +4,12 @@ import fr.efrei.cinemabookingproject1.domain.Screen;
 
 public class ScreenFactory {
 
-    public static Screen createScreen(int screenNumber, String Type, int capacity) {
-        Screen screen;
-        if (Screen.builder() == null) screen = null;
-        else screen = Screen.builder()
+    public static Screen createScreen(int screenNumber, String type, int capacity) {
 
-                .type(Type)
-                .capacity(capacity)
+        return new Screen.Builder()
+                .setType(type)
+                .setCapacity(capacity)
+                .setScreenNumber(screenNumber)
                 .build();
-        Screen screen1 = screen;
-        return screen1;
     }
 }
-
-

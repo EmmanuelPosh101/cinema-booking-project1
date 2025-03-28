@@ -15,7 +15,7 @@ class CustomerFactoryTest {
     void createCustomer_shouldReturnValidCustomer() {
 
         String name = "John Doe";
-        String email = "johndoe@gmail.com.com";
+        String email = "johndoe@gmail.com";
         String phone = "0787593081";
         int loyaltyPoints = 50;
 
@@ -34,7 +34,7 @@ class CustomerFactoryTest {
     void createCustomer_withoutLoyaltyPoints_shouldSetToZero() {
 
         String name = "Jane Marry";
-        String email = "janemarry@gmail.com.com";
+        String email = "janemarry@gmail.com";
         String phone = "0798758494";
 
 

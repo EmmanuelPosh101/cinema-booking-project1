@@ -1,45 +1,56 @@
 package fr.efrei.cinemabookingproject1.domain;
 
-public class Screen{
-    private String Type;
+public class Screen {
+    private String type;
     private int capacity;
+    private int screenNumber;  // ✅ Add missing screenNumber field
 
-    public Screen(String type) {
-        Type = type;
+    private Screen(Builder builder) {
+        this.type = builder.type;
+        this.capacity = builder.capacity;
+        this.screenNumber = builder.screenNumber;
     }
 
-    public static Object builder() {
-    return null;
-    
-    }
-
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
-    }
     public int getCapacity() {
         return capacity;
     }
 
     public String getType() {
-        return Type;
-    }
-
-    public void setType(String type) {
-        Type = type;
-    }
-
-    public void setScreenNumber(int screenNumber) {
+        return type;
     }
 
     public int getScreenNumber() {
-        int screenNumber = 0;
         return screenNumber;
     }
 
     @Override
     public String toString() {
-        return " Screen Type: " + Type +"Capacity" + capacity+ " Screen Number: " + getScreenNumber();
+        return "Screen Type: " + type + ", Capacity: " + capacity + ", Screen Number: " + screenNumber;
+    }
+
+
+    public static class Builder {
+        private String type;
+        private int capacity;
+        private int screenNumber;
+
+        public Builder setType(String type) {
+            this.type = type;
+            return this;
+        }
+
+        public Builder setCapacity(int capacity) {
+            this.capacity = capacity;
+            return this;
+        }
+
+        public Builder setScreenNumber(int screenNumber) {  // ✅ Now this method exists!
+            this.screenNumber = screenNumber;
+            return this;
+        }
+
+        public Screen build() {
+            return new Screen(this);
+        }
     }
 }
-
-
