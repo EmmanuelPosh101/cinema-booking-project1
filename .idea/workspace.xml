@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="i am done with domain and factory packages; innit commit&#10;Payment and Showtime">
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/efrei/cinemabookingproject1/factory/ConcessionFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fr/efrei/cinemabookingproject1/factory/StaffFactoryTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -22,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
