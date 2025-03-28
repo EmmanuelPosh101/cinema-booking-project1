@@ -127,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743193041992</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00003" summary="Added repositories for Screen, Ticket, Payment, Showtime, Concession, and Staff; updated Screen and Ticket domains; added StaffImplementation." />
+    <option name="closed" value="true" />
+    <created>1743285747063</created>
+    <option name="number" value="00009" />
+    <option name="presentableId" value="LOCAL-00009" />
+    <option name="project" value="LOCAL" />
+    <updated>1743285747063</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
