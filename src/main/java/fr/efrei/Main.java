@@ -35,6 +35,10 @@ public class Main {
             System.out.println("Promotion created successfully: " + pastPromo);
         } catch (IllegalArgumentException e) {
             System.err.println("Error creating promotion: " + e.getMessage());
+
+            System.out.println("Movie built successfully using builder pattern");
+            System.out.println("Seat built successfully using builder pattern");
         }
     }
+
 }
