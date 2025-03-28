@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="i am done with domain and factory packages; innit commit&#10;Payment and Showtime">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Showtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/PaymentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/ShowtimeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/IPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/IShowtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/ShowtimeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/PromotionRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,10 +88,12 @@
   }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="repository" />
       <recent name="fr.efrei.cinemabookingproject1.factory" />
       <recent name="fr.efrei.cinemabookingproject1.domain" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="repository" />
       <recent name="fr.efrei.cinemabookingproject1.factory" />
     </key>
   </component>
@@ -102,7 +105,15 @@
       <option name="presentableId" value="Default" />
       <updated>1742750687985</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="i am done with domain and factory packages; innit commit&#10;Payment and Showtime">
+      <option name="closed" value="true" />
+      <created>1743193041992</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743193041992</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +123,7 @@
     <MESSAGE value="Done with my entities and factory" />
     <MESSAGE value="innit commit" />
     <MESSAGE value="innit commit&#10;Payment and Showtime" />
-    <option name="LAST_COMMIT_MESSAGE" value="innit commit&#10;Payment and Showtime" />
+    <MESSAGE value="i am done with domain and factory packages; innit commit&#10;Payment and Showtime" />
+    <option name="LAST_COMMIT_MESSAGE" value="i am done with domain and factory packages; innit commit&#10;Payment and Showtime" />
   </component>
 </project>
