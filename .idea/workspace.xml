@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="i am done with domain and factory packages" />
+    <list default="true" id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="i am done with domain and factory packages; innit commit&#10;Payment and Showtime">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/domain/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,23 +35,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;EmmanuelPosh101&quot;
-  }
-}</component>
+    &quot;lastFilter&quot;: {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;EmmanuelPosh101&quot;
+    }
+  }</component>
   <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/lwethu-cde/cinema-booking-project1.git&quot;,
-    &quot;accountId&quot;: &quot;19e195a9-f2e8-419e-8b3f-cc7d8f2a6403&quot;
-  }
-}</component>
+    &quot;selectedUrlAndAccountId&quot;: {
+      &quot;url&quot;: &quot;https://github.com/222750014/cinema-booking-project1.git&quot;,
+      &quot;accountId&quot;: &quot;64cae8e0-ecdf-4652-9442-930491a46222&quot;
+    }
+  }</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
-}</component>
+    &quot;associatedIndex&quot;: 5
+  }</component>
   <component name="ProjectId" id="2uj8YUHUrMZp7GNDApRbQ9CFFKm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,47 +59,33 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Eazy E/IdeaProjects/CinemaBookingProject1/src/test/fr/efrei/cinemabookingproject1/factory&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java/jdk-22&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
-    ]
-  }
-}</component>
+    &quot;keyToString&quot;: {
+      &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+      &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+      &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+      &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+      &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+      &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+      &quot;last_directory_selection&quot;: &quot;C:/Users/Eazy E/IdeaProjects/CinemaBookingProject1/src/test/fr/efrei/cinemabookingproject1/factory&quot;,
+      &quot;last_opened_file_path&quot;: &quot;C:/Users/lindi/IdeaProjects/cinema-booking-project1&quot;,
+      &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+      &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+      &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+      &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+      &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+      &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+      &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+      &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+      &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+      &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    }
+  }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="fr.efrei.cinemabookingproject1.factory" />
       <recent name="fr.efrei.cinemabookingproject1.domain" />
     </key>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3f43b8c8-5085-4431-952e-101622d3f131" name="Changes" comment="" />
@@ -104,71 +93,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742750687985</updated>
-      <workItem from="1742750692702" duration="12025000" />
-      <workItem from="1742826348352" duration="5928000" />
-      <workItem from="1742833002059" duration="132000" />
-      <workItem from="1742833188057" duration="1064000" />
-      <workItem from="1742853981079" duration="3431000" />
-      <workItem from="1742857895451" duration="2293000" />
-      <workItem from="1742907925072" duration="68000" />
-      <workItem from="1742939437691" duration="916000" />
-      <workItem from="1742940374329" duration="923000" />
-    </task>
-    <task id="LOCAL-00001" summary="Done with my entities and factory">
-      <option name="closed" value="true" />
-      <created>1742830582660</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1742830582660</updated>
-    </task>
-    <task id="LOCAL-00002" summary="innit commit">
-      <option name="closed" value="true" />
-      <created>1742833341576</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1742833341576</updated>
-    </task>
-    <task id="LOCAL-00003" summary="I have completed doing my Domain and Factory">
-      <option name="closed" value="true" />
-      <created>1742858647505</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1742858647505</updated>
-    </task>
-    <task id="LOCAL-00004" summary="I have completed doing my Domain and Factory">
-      <option name="closed" value="true" />
-      <created>1742858807382</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1742858807382</updated>
-    </task>
-    <task id="LOCAL-00005" summary="i have completed with the two packages">
-      <option name="closed" value="true" />
-      <created>1742859408977</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1742859408977</updated>
-    </task>
-    <task id="LOCAL-00006" summary="i have completed with the two packages">
-      <option name="closed" value="true" />
-      <created>1742859520033</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1742859520033</updated>
-    </task>
-    <task id="LOCAL-00007" summary="i am done with domain and factory packages">
-      <option name="closed" value="true" />
-      <created>1742940584505</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1742940584505</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -179,9 +103,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done with my entities and factory" />
     <MESSAGE value="innit commit" />
-    <MESSAGE value="I have completed doing my Domain and Factory" />
-    <MESSAGE value="i have completed with the two packages" />
-    <MESSAGE value="i am done with domain and factory packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="i am done with domain and factory packages" />
+    <MESSAGE value="innit commit&#10;Payment and Showtime" />
+    <option name="LAST_COMMIT_MESSAGE" value="innit commit&#10;Payment and Showtime" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/efrei/cinemabookingproject1/factory/PaymentFactory.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,5 +1,10 @@
 package fr.efrei.cinemabookingproject1.factory;
 
+/*  
+Author: Emmanuel Posholi Posholi (222144408) 
+Date: 28 March 2025 
+*/
+
 import fr.efrei.cinemabookingproject1.domain.Promotion;
 import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
