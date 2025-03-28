@@ -1,10 +1,11 @@
 package repository;
 
-import fr.efrei.cinemabookingproject1.domain.Concession;
+import fr.efrei.cinemabookingproject1.domain.Staff;
 
 import java.util.List;
-//222134763
+//Sinokhanyo Ntantiso 222134763
+
 public interface StaffRepository {
-    void addConcession(Concession concession);
-    List<Concession> getAllConcessions();
+    void addStaff(Staff staff);
+    List<Staff> getAllStaff();
 }

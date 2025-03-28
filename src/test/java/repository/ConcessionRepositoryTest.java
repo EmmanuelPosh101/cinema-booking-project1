@@ -5,16 +5,16 @@ import fr.efrei.cinemabookingproject1.repository.impl.ConcessionImplementation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-//222134763
+
 public class ConcessionRepositoryTest {
     @Test
     public void testAddAndRetrieveConcession() {
         // Arrange
         ConcessionRepository concessionRepository = new ConcessionImplementation();
         Concession concession = new Concession.Builder()
-                .setItemName("Soda")
-                .setPrice(3.00)
-                .setAvailableQuantity(50)
+                .setItemName("Popcorn")
+                .setPrice(5.50)
+                .setAvailableQuantity(100)
                 .build();
 
         // Act
@@ -25,5 +25,23 @@ public class ConcessionRepositoryTest {
         assertEquals(concession.getItemName(), retrievedConcession.getItemName());
         assertEquals(concession.getPrice(), retrievedConcession.getPrice());
         assertEquals(concession.getAvailableQuantity(), retrievedConcession.getAvailableQuantity());
+    }
+
+    @Test
+    public void testFindConcessionByName() {
+        // Arrange
+        ConcessionRepository concessionRepository = new ConcessionImplementation();
+        Concession concession = new Concession.Builder()
+                .setItemName("Nachos")
+                .setPrice(4.00)
+                .setAvailableQuantity(50)
+                .build();
+        concessionRepository.addConcession(concession);
+
+        // Act
+        Concession foundConcession = concessionRepository.findConcessionByName("Nachos");
+
+        // Assert
+        assertEquals(concession.getItemName(), foundConcession.getItemName());
     }
 }
